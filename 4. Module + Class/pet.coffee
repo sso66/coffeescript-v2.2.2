@@ -1,5 +1,5 @@
-# pet.js
-console.log 'Inheritance with extends'
+# 4. Modules and Classes
+# 4.4a Inheritance with 'extends': INHERITANCE
 
 class Pet
 	constructor: -> @isHungry = true
@@ -16,4 +16,5 @@ class Dog extends Pet
 dog = new Dog();
 dog.eat()
 dog.fetch()
+
 #eof

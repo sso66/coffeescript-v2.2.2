@@ -1,5 +1,6 @@
-# shape.coffee
-console.log 'Polymorphism and Switching'
+# 4. Modules and Classes
+# 4.4b Polymorphism and Switching': POLYMORPHISM
+
 
 class Shape
   constructor: (@width) ->

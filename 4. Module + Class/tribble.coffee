@@ -1,6 +1,5 @@
-# tribble.js
-
-console.log 'Classes: Function with Prototypes'
+# 4. Modules and Classes
+# 4.3 Classes: Functions with Prototypes: ENCAPSULATION
 
 class Tribble
   constructor: ->

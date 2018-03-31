@@ -1,5 +1,6 @@
 # 4. Modules and Classes
-# 4.1 Modules: Splitting Up Apps
+# 4.1 Modules: Splitting Up Apps: ABSTRACTION
+
 console.log 'Parent Module'
 require("./root")
 
