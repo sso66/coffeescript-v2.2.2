@@ -1,7 +1,8 @@
-# 4. Modules and Classes
-## 4.4b Polymorphism and Switching': POLYMORPHISM - Dynamic Method Invocation: 
-### The concept of OOP interface <<shape>>
 ```
+# 4. Modules and Classes
+# 4.4b Polymorphism and Switching': POLYMORPHISM - Dynamic Method Invocation: 
+# The concept of OOP interface <<shape>>
+
 class Shape
   constructor: (@width) ->
   computeArea: -> throw new Error('I am an abstract class!')
