@@ -4,14 +4,14 @@
 # The concept of OOP interface <<shape>>
 
 class Shape
-  constructor: (@width) ->
+  constructor: (@size) ->
   computeArea: -> throw new Error('I am an abstract class!')
 
 class Square extends Shape
-  computeArea: -> Math.pow @width, 2
+  computeArea: -> Math.pow @size, 2
 
 class Circle extends Shape
-  radius: -> @width / 2
+  radius: -> @size / 2
   computeArea: -> Math.PI + Math.pow @radius(), 2
 
 showArea = (shape) ->
