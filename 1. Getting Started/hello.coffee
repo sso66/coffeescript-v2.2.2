@@ -1,10 +1,10 @@
 # hello.coffee
 show = console.log 
 
-show 'Hello World!'
+show 'Hello World! Function calls: simple/indexed/bound'
 
-normal = -> show 'Normal Hello World!'
-callback = => show 'Callback Hello World!'
+normalFn = -> show 'Normal function - thin arrow Hello World!'
+boundFn = => show 'Bound function - fat arrow  Hello World!'
 
-do normal
-do callback
+do normalFn
+do boundFn
