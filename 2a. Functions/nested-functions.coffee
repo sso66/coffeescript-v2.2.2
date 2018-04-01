@@ -1,2 +1,0 @@
-# nestedFunctons.coffee
-### define ###
