@@ -1,6 +1,6 @@
 # odd.coffee
 console.log "Conditionals and Exceptions"
-
+### ES5
 odd = (num) ->
 	if typeof num is 'number'
 		if num is Math.round num
@@ -12,7 +12,7 @@ odd = (num) ->
 			throw console.log "#{num} is not an integer"
 	else
 		throw console.log "#{num} is not a number"
-		
+###		
 odd = (num) ->
 	unless typeof num is 'number'
 		throw console.log "#{num} is not a number"
