@@ -1,10 +1,10 @@
 // hello.coffee
 const show = console.log; 
 
-show('Hello World!');
+show('Hello World! Function calls: simple/indexed/bound');
 
-const normal = () => show('Normal Hello World!');
-const callback = () => show('Callback Hello World!');
+const normalFn = () => show('Normal function - thin arrow Hello World!');
+const boundFn = () => show('Bound function - fat arrow  Hello World!');
 
-normal();
-callback();
+normalFn();
+boundFn();
