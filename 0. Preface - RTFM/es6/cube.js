@@ -5,24 +5,35 @@
  * Full docs: https://github.com/decaffeinate/decaffeinate/blob/master/docs/suggestions.md
  */
 // cube.coffee
-// coffee -> ES5
+// coffee (compile) -> ES5
 // coffee (decafeinate) -> ES6
 
+/*
+	JavaScript Design Patterns:
+	1. Creational
+	2. Structural
+	3. Behavioral 
+	4. Interaction
+	5. Presentation
+*/
+
 // Create 
-let cubeList;
 let num;
 const cube = num => Math.pow(num, 3);
 
 // Collect
 const list = [1,2,3,4,5];
 
-// Store
-console.log(cubeList = [(() => {
-  const result = [];
-  for (num of Array.from(list)) {     result.push(cube(num));
-  }
-  return result;
-})()]);
+// Iterate & Store
+const cubeList = [(() => {
+	const result = [];
+	for (num of Array.from(list)) { 		result.push(cube(num));
+	}
+	return result;
+})()]; // get list items
+console.log(cubeList); // get structure of the list
+//console.log cubeList.toString() # get stringified items
+console.log(`Cube List: ${cubeList}`); // get concatenated items
 
-// Iterate
+// Iterate & Display
 for (num of Array.from(list)) { console.log(cube(num)); }

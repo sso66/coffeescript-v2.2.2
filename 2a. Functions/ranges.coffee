@@ -1,4 +1,4 @@
-# console.coffee
+# ranges.coffee
 show = console.log
 
 total = 0

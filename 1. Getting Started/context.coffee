@@ -1,13 +1,13 @@
 # context.coffee
 
-require './scope'
-util = require './util'
+require './function-fe'
+util = require './function-be'
 
-scope = do global.foo
+command = do global.foo
 show = console.log
-
-show "Now Coffee compiler generating context.js (JavaScript) function..."
-show "global.foo = -> return 'bar' =  " + scope
+scope = "Now Coffee compiler generating context.js (ES5) function..."
+show scope
+show "global.foo = -> return 'bar' =  " + command
 show "exports.square = (x) -> x + x = " + util.square(5)
 
 # eof

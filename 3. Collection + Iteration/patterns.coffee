@@ -1,4 +1,4 @@
-# Pattern Matching (or Destructuring Assigment)
+# Pattern Matching (or Destructuring Assigments)
 
 show = console.log
 
