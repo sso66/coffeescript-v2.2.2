@@ -1,4 +1,6 @@
-# Cleanup suggestions after running decaffeinate
+# [CoffeeScript](https://coffeescript.org/)
+
+## Cleanup suggestions after running decaffeinate
 
 decaffeinate [focuses on correctness as a top priority](./correctness-issues.md),
 and sometimes this means the generated JavaScript code is more defensive than it
