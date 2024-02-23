@@ -1,12 +1,17 @@
 {
   "name": "coffeescript-v2.2.2",
   "version": "1.0.0",
-  "description": "The Begining of ECMAScript",
+  "description": "The Beginning of ECMAScript",
   "main": "index.js",
   "scripts": {
+    "coffee": "npx coffee --compile example.coffee",
+    "coffee:watch": "npx coffee --watch --compile example.coffee",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "coffeescript": "^2.7.0"
+  }
 }
