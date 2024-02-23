@@ -12,6 +12,7 @@
   	3. Behavioral 
   	4. Interaction
   	5. Presentation
+    6. Animation
   */
   // Create 
   cube = function(num) {
